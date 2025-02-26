@@ -1,0 +1,86 @@
+html{
+    height: 100%;
+    width: 100%;
+
+    overflow: hidden;
+}
+
+body{
+    background: linear-gradient(45deg, rgb(0, 0, 0) 0%, rgb(11, 11, 11) 50%, rgb(22, 22, 22) 100%);
+
+    display: flex;
+    align-items: center;
+}
+
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(112, 112, 112);
+    text-decoration: none;
+}
+a:visited{
+    color: whitesmoke;
+    text-decoration: none;
+}
+a:active{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+#border{
+    background-image: url(img/noise.gif);
+    background-color: rgba(0, 0, 0, 0.9);
+    background-blend-mode: overlay;
+
+    width: 95.5vw;
+    height: 90vh;
+
+    margin: 0 auto;
+    margin-top: 3.75vh;
+
+    border: solid;
+    border-color: rgb(35, 35, 35);
+}
+
+.main{
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    white-space: nowrap;
+
+    line-height: 2;
+}
+
+.main span{
+    color: whitesmoke;
+    display: block;
+}
+
+.main_bigger{
+    font: 3rem "Fira Sans", sans-serif;
+}
+
+.main_normal{
+    font: 1.2rem "Fira Sans", sans-serif;
+}
+
+.main_smaller{
+    font: 0.8rem "Fira Sans", sans-serif;
+}
+
+.about_me{
+    position: absolute;
+    right: 5%;
+    bottom: 10%;
+    white-space: nowrap;
+
+    line-height: 1.5;
+}
+
+.about_me span{
+    color: whitesmoke;
+    font: 1rem "Fira Sans", sans-serif;
+    display: block;
+}
